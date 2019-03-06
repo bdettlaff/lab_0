@@ -5,9 +5,9 @@ import java.util.List;
 
 public class TailsGenerator {
 
-    private List<String> result = new ArrayList<>();
-
     public List<String> tails(String value) {
+
+        List<String> result = new ArrayList<>();
 
         if(value == null){
             return result;
